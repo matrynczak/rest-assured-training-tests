@@ -8,7 +8,7 @@ import utils.EnvProperties;
 
 import static io.restassured.RestAssured.given;
 
-public class AddPosts {
+public class AddPostsTest {
     private static final String testTitle = "Test Title";
     private static final String testBody = "Test Body of New Post";
     private static final String apiUrl = EnvProperties.getApiUrl();

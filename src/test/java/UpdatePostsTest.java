@@ -7,7 +7,7 @@ import utils.EnvProperties;
 
 import static io.restassured.RestAssured.given;
 
-public class UpdatePosts {
+public class UpdatePostsTest {
     private static final String testTitle = "Test Title Updated";
     private static final String testBody = "Test Body of New Post Updated";
     private static final int postId = 1;
@@ -15,7 +15,7 @@ public class UpdatePosts {
 
     @Test
     public void shouldEditSingleItemWithCorrectData() {
-        GetPosts getTests = new GetPosts();
+        GetPostsTest getTests = new GetPostsTest();
         builder.contract.Post post = new PostBuilder()
                 .withUserId(1)
                 .withTitle(testTitle)
