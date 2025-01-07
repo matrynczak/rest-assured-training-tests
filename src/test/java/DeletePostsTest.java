@@ -6,7 +6,7 @@ import utils.EnvProperties;
 
 import static io.restassured.RestAssured.given;
 
-public class DeletePosts {
+public class DeletePostsTest {
     private static final int postId = 1;
     private static final String apiUrl = EnvProperties.getApiUrl();
 

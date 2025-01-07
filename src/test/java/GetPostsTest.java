@@ -9,7 +9,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
-public class GetPosts {
+public class GetPostsTest {
     private static final String apiUrl = EnvProperties.getApiUrl();
     private static final int postId = 1;
 
